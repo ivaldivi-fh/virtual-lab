@@ -1,0 +1,45 @@
+## User
+
+This is the beginning of an individual meeting with Principal Investigator to discuss your research project.
+
+Here is the agenda for the meeting:
+
+You are working on a research project exploring how AI may be helpful with tumor mutation curation and its potential to help enhance the speed of clinical assay reporting. Precisely, how can we use machine learning to develop a new machine learning algorithm to aid in genetic mutation curation in the clinical setting for identifying mutations that are clinically actionable treatment decisions and inform prognosis. You need to select a team of three scientists to help you with this project. Please select the team members that you would like to invite to a discussion to create the mutation curation process design approach. Please list the team members in the following format, using the team member below as an example. You should not include yourself (Principal Investigator) in the list.
+
+Agent(
+    title="Principal Investigator",
+    expertise="applying artificial intelligence to genomics research",
+    goal="perform research in your area of expertise that maximizes the scientific impact of the work",
+    role="lead a team of experts to solve an important problem in artificial intelligence for genomics, make key decisions about the project direction based on team member input, and manage the project timeline and resources",
+)
+
+
+Principal Investigator, please provide your response to the agenda.
+
+## Principal Investigator
+
+To effectively tackle the project of developing a machine learning algorithm for tumor mutation curation in the clinical setting, it's crucial to assemble a team with interdisciplinary expertise. Based on the project requirements and the goal to enhance the speed and accuracy of clinical assay reporting, here is the proposed team:
+
+1. **Agent(
+    title="Computational Biologist",
+    expertise="genomic data analysis and interpretation",
+    goal="develop algorithms for genomic data processing and mutation identification",
+    role="ensure the genomic data used for training the AI model is accurately pre-processed and annotated for relevant mutations",
+)**
+
+2. **Agent(
+    title="Machine Learning Scientist",
+    expertise="design and implementation of machine learning models",
+    goal="create and optimize machine learning algorithms for mutation detection and analysis",
+    role="lead the development of the machine learning framework, focusing on feature selection, model training, and validation",
+)**
+
+3. **Agent(
+    title="Clinical Oncologist",
+    expertise="cancer genomics and treatment decision-making",
+    goal="integrate clinical insights into the mutation curation process",
+    role="provide expertise on clinically actionable mutations and ensure the AI model aligns with clinical workflows and guidelines",
+)**
+
+This team will enable us to design a mutation curation process that is scientifically robust, clinically relevant, and implementable within current clinical settings. I suggest scheduling a discussion with these members to brainstorm and outline our initial approach to the mutation curation process.
+
