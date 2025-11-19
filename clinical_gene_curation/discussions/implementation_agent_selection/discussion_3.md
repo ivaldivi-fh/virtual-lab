@@ -140,46 +140,31 @@ You are working on a research project exploring how AI may be helpful with tumor
 
 Here are the agenda questions that must be answered:
 
-1. Which team member will handle data processing tools like GATK, VCFtools and DNABERT to process genomic sequences and understand nucleotide contexts?
+1. Which team member will handle the training data collection?
 
-2. Which team member will set up the tools that will integrate clinical data? (ClinVar Miner, CIViC and OncoKB)
+2. Which team member will handle setting up the DeepVariant and transformer architecture merge with implementation of Apache Spark and Ray??
 
 3. Which team member will handle explainability tools like SHAP and BERTviz?
 
-4. Which team member will handle setting up Apache Spark and Ray?
-
-5. Which team member will handle the model-related tools like ONNX, PyTorch, TensorFlow, OntoTool, Apache Stanbol and GNNs?
-
-6. Which team member will tackle setting up the GNN to help model complex interactions between mutations?
-
-7. Which team memver will be responsible for implementing a ui that involves a continuous feedback loop from Clinicians?
+4. Which team memver will be responsible for implementing a ui that involves a continuous feedback loop from Clinicians?
 
 Principal Investigator, please provide your response to the agenda.
 
 ## Principal Investigator
 
-Based on the expertise and roles of our team members, I would assign the tasks as follows to leverage their strengths and ensure that all components are effectively implemented:
+Given the outlined agenda and the team members' expertise, here's how we can assign responsibilities for each component of the project:
 
-1. **Data Processing Tools (GATK, VCFtools, DNABERT):**  
-   - **Bioinformatics Scientist**: This team member's expertise in genomic data analysis and interpretation makes them the ideal candidate to handle data processing tools. They will ensure that genomic sequences are accurately processed and that nucleotide contexts are well understood.
+1. **Training Data Collection**:
+   - **Bioinformatics Scientist**: This team member is best suited for handling training data collection due to their expertise in genomic data analysis and interpretation. They can ensure that the data is accurately pre-processed, annotated, and relevant for training the AI models. Their role will involve identifying mutation patterns, selecting clinically actionable mutations, and ensuring that the datasets are biologically relevant.
 
-2. **Integrating Clinical Data (ClinVar Miner, CIViC, OncoKB):**  
-   - **Clinical Oncologist**: Given their focus on clinical relevance and their understanding of the clinical implications of genetic mutations, the Clinical Oncologist will set up and integrate clinical data from these databases. Their insights will ensure that the clinical data is accurately curated for actionable insights.
+2. **DeepVariant and Transformer Architecture Merge with Apache Spark and Ray Implementation**:
+   - **Machine Learning Engineer**: The Machine Learning Engineer should handle this responsibility as they have the expertise in designing and implementing machine learning models. They will focus on merging DeepVariant with transformer-based models and leverage Apache Spark and Ray for scalable data processing and model training. This task aligns with their goal of developing robust algorithms and ensuring model performance.
 
-3. **Explainability Tools (SHAP, BERTviz):**  
-   - **Machine Learning Engineer**: This member's role in optimizing machine learning architectures makes them the most suitable for handling explainability tools. They will be responsible for ensuring that the models' predictions are interpretable and can be effectively communicated to clinicians.
+3. **Explainability Tools like SHAP and BERTviz**:
+   - **Machine Learning Engineer**: While the Clinical Oncologist provides insights into clinical applicability, the Machine Learning Engineer will be more suited to handle technical implementations of explainability tools. They will work on integrating SHAP and BERTviz into the tool to enhance model interpretability and provide visual explanations for clinicians.
 
-4. **Setting Up Apache Spark and Ray:**  
-   - **Machine Learning Engineer**: Their expertise in designing and implementing machine learning models also extends to managing computational demands. They will set up Apache Spark and Ray for scalable data processing and model training.
+4. **UI Implementation with Continuous Feedback Loop from Clinicians**:
+   - **Clinical Oncologist**: This team member is ideal for leading the implementation of a user interface that involves a continuous feedback loop from clinicians. Their expertise in clinical decision-making and understanding of the clinical implications of genetic mutations make them well-equipped to ensure that the UI is user-friendly and meets clinical needs. They will collaborate closely with other team members to integrate clinical feedback and ensure the tool's practical application in real-world settings.
 
-5. **Model-Related Tools (ONNX, PyTorch, TensorFlow, OntoTool, Apache Stanbol, GNNs):**  
-   - **Machine Learning Engineer**: This team member will handle the model-related tools, given their expertise in machine learning model design and optimization. They will integrate and optimize various software frameworks necessary for the project's success.
-
-6. **Setting Up the GNN for Modeling Complex Interactions:**  
-   - **Bioinformatics Scientist**: With their knowledge of genomic interactions, the Bioinformatics Scientist will tackle the setup of the GNN. This will involve modeling complex mutation interactions and pathways, leveraging their genomic background.
-
-7. **Implementing a UI with Continuous Feedback from Clinicians:**  
-   - **Clinical Oncologist**: Their role in ensuring clinical relevance extends to designing interfaces that cater to clinical workflows. They will lead the development of the user interface, focusing on clinician usability and incorporating continuous feedback to improve clinical utility.
-
-This allocation ensures that each task aligns with the team members' expertise, contributing to the project's overall success in developing an AI-driven tool for lung cancer mutation curation.
+By assigning these responsibilities based on each team member's expertise, we aim to leverage their strengths to create a tool that is scientifically robust, clinically relevant, and easy to use in clinical practice.
 

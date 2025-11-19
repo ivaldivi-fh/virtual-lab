@@ -140,53 +140,37 @@ You are working on a research project exploring how AI may be helpful with tumor
 
 Here are the agenda questions that must be answered:
 
-1. Which team member will handle data processing tools like GATK, VCFtools and DNABERT to process genomic sequences and understand nucleotide contexts?
+1. Which team member will handle the training data collection?
 
-2. Which team member will set up the tools that will integrate clinical data? (ClinVar Miner, CIViC and OncoKB)
+2. Which team member will handle setting up the DeepVariant and transformer architecture merge with implementation of Apache Spark and Ray??
 
 3. Which team member will handle explainability tools like SHAP and BERTviz?
 
-4. Which team member will handle setting up Apache Spark and Ray?
-
-5. Which team member will handle the model-related tools like ONNX, PyTorch, TensorFlow, OntoTool, Apache Stanbol and GNNs?
-
-6. Which team member will tackle setting up the GNN to help model complex interactions between mutations?
-
-7. Which team memver will be responsible for implementing a ui that involves a continuous feedback loop from Clinicians?
+4. Which team memver will be responsible for implementing a ui that involves a continuous feedback loop from Clinicians?
 
 Principal Investigator, please provide your response to the agenda.
 
 ## Principal Investigator
 
-Based on the agenda and the expertise of our team members, here is the proposed allocation of responsibilities for the project components:
+Based on the team members' expertise and the project needs, here's how we can allocate responsibilities for the agenda items:
 
-1. **Data Processing Tools (GATK, VCFtools, DNABERT):**
-   - **Responsible Team Member:** Bioinformatics Scientist
-   - **Rationale:** The Bioinformatics Scientist is best suited for this task due to their expertise in genomic data analysis and interpretation. They will ensure accurate processing of genomic sequences and understanding of nucleotide contexts, which is critical for mutation detection.
+1. **Training Data Collection**:
+   - **Bioinformatics Scientist**: This team member has the expertise in genomic data analysis and interpretation, making them the most suitable to handle the training data collection. They will be responsible for sourcing, curating, and preprocessing genomic datasets from databases like ClinVar, COSMIC, TCGA, and ICGC. Their role will ensure that the datasets are comprehensive and biologically relevant for model training.
 
-2. **Integration of Clinical Data (ClinVar Miner, CIViC, OncoKB):**
-   - **Responsible Team Member:** Clinical Oncologist
-   - **Rationale:** The Clinical Oncologist has the expertise to ensure that the integration of clinical data is relevant and actionable in a clinical setting. They will guide the selection of clinically relevant mutations and ensure that the integrated data supports treatment decisions.
+2. **Setting up the DeepVariant and Transformer Architecture Merge with Implementation of Apache Spark and Ray**:
+   - **Machine Learning Engineer**: The Machine Learning Engineer is best suited for this task, given their expertise in designing and implementing machine learning models. They will focus on modifying DeepVariant by integrating transformer-based models and manage the computational demands using Apache Spark for distributed data processing and Ray for parallel model training. This integration will enhance the efficiency and scalability of our model development process.
 
-3. **Explainability Tools (SHAP, BERTviz):**
-   - **Responsible Team Member:** Machine Learning Engineer
-   - **Rationale:** The Machine Learning Engineer is well-equipped to handle explainability tools, as they are versed in designing and optimizing machine learning models. They will focus on enhancing model interpretability to facilitate clinician understanding and trust in the AI outputs.
+3. **Explainability Tools like SHAP and BERTviz**:
+   - **Machine Learning Engineer**: The Machine Learning Engineer will also be responsible for implementing explainability tools. Their familiarity with model architectures and frameworks will enable them to effectively integrate SHAP and BERTviz, providing insights into model predictions and enhancing clinician understanding. They will work closely with the Clinical Oncologist to ensure the visual explanations align with clinical needs.
 
-4. **Apache Spark and Ray Setup:**
-   - **Responsible Team Member:** Machine Learning Engineer
-   - **Rationale:** Given the computational demands and the need for scalable data processing, the Machine Learning Engineer will set up Apache Spark and Ray to manage these aspects effectively. Their experience with scalable computation is crucial for efficient data handling and model training.
+4. **UI and Continuous Feedback Loop from Clinicians**:
+   - **Clinical Oncologist**: The Clinical Oncologist should lead the development of the user interface, as they have direct insights into clinical workflows and decision-making processes. They will work to ensure that the UI is intuitive and facilitates a continuous feedback loop from clinicians. By gathering and integrating feedback, they will ensure that the tool meets the practical needs of end-users and is effectively adopted in clinical settings.
 
-5. **Model-Related Tools (ONNX, PyTorch, TensorFlow, OntoTool, Apache Stanbol, GNNs):**
-   - **Responsible Team Member:** Machine Learning Engineer
-   - **Rationale:** The Machine Learning Engineer will handle these tools due to their expertise in developing and integrating machine learning models. They will ensure that the model development is robust and that different tools are effectively integrated for optimal performance.
+For the additional components of a nanobody design pipeline (ESM, AlphaFold-Multimer, and Rosetta), here are the recommendations:
 
-6. **Graph Neural Networks (GNN) for Modeling Mutation Interactions:**
-   - **Responsible Team Member:** Bioinformatics Scientist
-   - **Rationale:** The Bioinformatics Scientist will work on setting up GNNs to model complex mutation interactions, as this requires a deep understanding of genomic data and biological networks. Their insights will help in accurately capturing the biological impact of mutation networks.
+- **ESM**: Machine Learning Engineer, to leverage their expertise in advanced model architectures and integration.
+- **AlphaFold-Multimer**: Bioinformatics Scientist, to apply their skills in structural biology and protein modeling.
+- **Rosetta**: Bioinformatics Scientist, given their background in computational biology and protein structure prediction.
 
-7. **UI Development and Clinician Feedback Loop:**
-   - **Responsible Team Member:** Clinical Oncologist
-   - **Rationale:** The Clinical Oncologist will be responsible for implementing the user interface that includes a feedback loop from clinicians. Their close interaction with clinical stakeholders will ensure that the UI is user-friendly and meets the practical needs of clinicians.
-
-By distributing these responsibilities in alignment with each team member's expertise, we can ensure a streamlined approach to the project, maximizing both scientific impact and clinical applicability.
+This distribution of tasks ensures that each component is handled by the most qualified team member, optimizing the project's scientific impact and clinical relevance.
 
